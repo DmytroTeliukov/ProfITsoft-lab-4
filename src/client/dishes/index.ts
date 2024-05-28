@@ -2,7 +2,7 @@ import axios from "axios";
 import log4js from "log4js";
 
 /* Url path to dish (external) service */
-const dishServiceUrl = 'http://172.23.0.1:9090/api/dishes';
+const dishServiceUrl = 'http://172.23.0.6:9090/api/dishes';
 
 /* Function to check if a dish exists by its ID */
 export const checkDishExistsById = async (dishId: number): Promise<boolean> => {
